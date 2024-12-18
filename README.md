@@ -5,7 +5,8 @@ Everest _(formerly RESTaurant)_ is an resurrected REST API testing client writte
 
 Use java17
 
-and then..
+and then.. download JavaFX from Gluon? for apple silicon.
+
 ```
 java -jar --module-path ~/Downloads/javafx-sdk-17.0.13/lib --add-modules=javafx.controls,javafx.fxml target/Everest-Alpha-1.4.jar
 ```
