@@ -1,9 +1,6 @@
-![everestheader](https://user-images.githubusercontent.com/23148259/39124644-c886b47a-4719-11e8-953c-f079b3edb664.png)
 
-Everest _(formerly RESTaurant)_ is an upcoming REST API testing client written in JavaFX.
+Everest _(formerly RESTaurant)_ is an resurrected REST API testing client written with JavaFX.
 
-![home](https://user-images.githubusercontent.com/23148259/45769743-23e5a380-bc5e-11e8-9e45-5ea50342c19f.PNG)
-_Everest running on Windows 10._
 # Why Everest?
 - Everest is written in Java. Thus, it is significantly **lighter on resources and more responsive** than its Electron-based alternatives like _Postman_. It aims to provide the same level of functionality in a lighter, native but equally slick package.
 - Aesthetic is very important. With a **gorgeous, flat design**, Everest is a pleasure to look at and to work with. It is also entirely theme-_able_.

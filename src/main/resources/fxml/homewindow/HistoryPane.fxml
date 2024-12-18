@@ -2,6 +2,7 @@
 
 <!--
   ~ Copyright 2018 Rohit Awate.
+Copyright 2024, ZipCodeWilmington
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -24,7 +25,7 @@
 <?import javafx.scene.text.Font?>
 <VBox fx:id="searchPane" alignment="TOP_CENTER" maxWidth="310.0" minWidth="310.0" stylesheets="@../../css/Adreana.css"
       SplitPane.resizableWithParent="false" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1"
-      fx:controller="com.rohitawate.everest.controllers.HistoryPaneController">
+      fx:controller="rocks.zipcode.everest.controllers.HistoryPaneController">
 	<children>
         <HBox fx:id="historySearchFieldBox" alignment="CENTER" fillHeight="false">
 			<VBox.margin>

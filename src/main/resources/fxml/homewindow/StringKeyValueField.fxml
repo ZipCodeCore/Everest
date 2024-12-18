@@ -2,6 +2,7 @@
 
 <!--
   ~ Copyright 2018 Rohit Awate.
+Copyright 2024, ZipCodeWilmington
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -25,7 +26,7 @@
 <?import javafx.scene.layout.*?>
 <HBox fx:id="headerField" alignment="CENTER" spacing="10.0" styleClass="KVField" stylesheets="@../../css/Adreana.css"
       xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1"
-      fx:controller="com.rohitawate.everest.controllers.StringKeyValueFieldController">
+      fx:controller="rocks.zipcode.everest.controllers.StringKeyValueFieldController">
     <children>
         <JFXCheckBox fx:id="checkBox" checkedColor="ORANGERED" unCheckedColor="#7a7a7a" HBox.hgrow="ALWAYS"/>
         <TextField fx:id="keyField" prefWidth="400.0" promptText="KEY" styleClass="KVField" HBox.hgrow="ALWAYS"/>

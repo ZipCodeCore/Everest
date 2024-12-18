@@ -1,4 +1,4 @@
-package com.rohitawate.everest.auth;
+package rocks.zipcode.everest.auth;
 
 import org.junit.jupiter.api.Test;
 
