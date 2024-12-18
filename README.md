@@ -1,6 +1,16 @@
 
 Everest _(formerly RESTaurant)_ is an resurrected REST API testing client written with JavaFX.
 
+## To get the jar file running.
+
+Use java17
+
+and then..
+```
+java -jar --module-path ~/Downloads/javafx-sdk-17.0.13/lib --add-modules=javafx.controls,javafx.fxml target/Everest-Alpha-1.4.jar
+```
+_Note the module-path of where you have a copy of the all the JavaFX libs, jars, etc downloaded for your OS.
+
 # Why Everest?
 - Everest is written in Java. Thus, it is significantly **lighter on resources and more responsive** than its Electron-based alternatives like _Postman_. It aims to provide the same level of functionality in a lighter, native but equally slick package.
 - Aesthetic is very important. With a **gorgeous, flat design**, Everest is a pleasure to look at and to work with. It is also entirely theme-_able_.
