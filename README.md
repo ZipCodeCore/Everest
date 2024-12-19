@@ -68,6 +68,17 @@ Everest maintains the history of all the requests made by you. You can search wi
 
 _Everest's search feature in action._
 
+
+## Building from source 🔨
+Everest uses Maven, so building from the source code is very simple. You need to have a minimum of JDK 17 installed, along with Maven and Git. You will **need to install OpenJFX separately**. Once you have everything set up, follow these simple steps:
+1. Clone the repository: `git clone https://github.com/ZipCodeCore/Everest.git`
+2. Enter the repository: `cd Everest`
+3. Build a binary: `mvn package`
+4. Run the binary: `mvn exec:java`
+
+**For JDK  10 and above:** JavaFX has been decoupled from the JDK and will need to be installed separately.
+`kristofer ` got JavaFX from here https://gluonhq.com/products/javafx/
+
 ## Prior to ZipCode's Interest
 
 These were the futures. They can still be added by enthusiastic students.
