@@ -4,6 +4,8 @@ Everest _(formerly RESTaurant)_ is an resurrected REST API testing client writte
 
 This project was Forked in 2024, at that point, the original Repo had been updated last in 2018.
 
+![Everest Screenshot](./everest-window.png)
+
 `kristofer` spent a couple of hours upgrading the dependencies, and getting it running on Java17.
 Because it uses JavaFX, which isn't included in the standard Java JDKs any longer, this project has a 
 wicked issue with how to bundle it up into a Mac App. One needs to include a copy of the JavaJX jars and dylibs, 
