@@ -1,9 +1,17 @@
+# Everest - a REST desktop client.
 
 Everest _(formerly RESTaurant)_ is an resurrected REST API testing client written with JavaFX.
 
-## To get the jar file running.
+This project was Forked in 2024, at that point, the original Repo had been updated last in 2018.
 
-Use java17
+`kristofer` spent a couple of hours upgrading the dependencies, and getting it running on Java17.
+Because it uses JavaFX, which isn't included in the standard Java JDKs any longer, this project has a 
+wicked issue with how to bundle it up into a Mac App. One needs to include a copy of the JavaJX jars and dylibs, 
+so that it can be run. See the note below.
+
+## To get the jar file running. (as of late-2024)
+
+Use java17.
 
 and then.. download JavaFX from Gluon? for apple silicon.
 
@@ -19,7 +27,6 @@ _Note the module-path of where you have a copy of the all the JavaFX libs, jars,
   > I want you to want to use it!
 
 - Being a Java application, Everest is inherently **cross-platform**. It will run anywhere there's a JVM.
-- Everest will offer cloud synchronization of your projects powered by [Summit](https://github.com/RohitAwate/Summit). It will be available as a cloud service early next year or you may also choose to self-host it.
 
 # Live Features 🔥
 
@@ -59,7 +66,15 @@ Everest maintains the history of all the requests made by you. You can search wi
 
 _Everest's search feature in action._
 
-# Upcoming features ⏳
+# Prior to ZipCode's Interest
+
+These were the futures. They can still be added by enthusiastic students.
+We can also re-factor the code, re-think some of the implementations.
+
+## Upcoming features ⏳ As Of 2016
+
+- Everest will offer cloud synchronization of your projects powered by [Summit](https://github.com/RohitAwate/Summit). It will be available as a cloud service early next year or you may also choose to self-host it.
+
 #### OAuth Support
 Everest will fully support both of the OAuth standards. Work on **OAuth 2.0 is in progress** right now and will be available with Alpha 1.4. OAuth 1.0 will follow next. 
 
