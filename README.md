@@ -2,7 +2,7 @@
 
 Everest _(formerly RESTaurant)_ is an resurrected REST API testing client written with JavaFX.
 
-This project was Forked in 2024, at that point, the original Repo had been updated last in 2018.
+This project was Forked in 2024 from https://github.com/RohitAwate/Everest, at that point, the original Repo had been updated last in 2018.
 
 ![Everest Screenshot](./everest-window.png)
 
@@ -22,7 +22,7 @@ java -jar --module-path ~/Downloads/javafx-sdk-17.0.13/lib --add-modules=javafx.
 ```
 _Note the module-path of where you have a copy of the all the JavaFX libs, jars, etc downloaded for your OS.
 
-# Why Everest?
+## Why Everest?
 - Everest is written in Java. Thus, it is significantly **lighter on resources and more responsive** than its Electron-based alternatives like _Postman_. It aims to provide the same level of functionality in a lighter, native but equally slick package.
 - Aesthetic is very important. With a **gorgeous, flat design**, Everest is a pleasure to look at and to work with. It is also entirely theme-_able_.
 
@@ -30,7 +30,7 @@ _Note the module-path of where you have a copy of the all the JavaFX libs, jars,
 
 - Being a Java application, Everest is inherently **cross-platform**. It will run anywhere there's a JVM.
 
-# Live Features 🔥
+## Live Features 🔥
 
 #### All of the most common requests
 GET, POST, PUT, DELETE and PATCH requests. HEAD and OPTIONS coming soon.
@@ -68,7 +68,7 @@ Everest maintains the history of all the requests made by you. You can search wi
 
 _Everest's search feature in action._
 
-# Prior to ZipCode's Interest
+## Prior to ZipCode's Interest
 
 These were the futures. They can still be added by enthusiastic students.
 We can also re-factor the code, re-think some of the implementations.
@@ -99,7 +99,7 @@ This will allow developers to create extensions for Everest which can for exampl
 #### Mock Server
 This local server can be used to quickly create a mock REST-_ful_ service with the endpoints of your choice, producing the output of your choice.
 
-# Keymap ⌨️
+## Keymap ⌨️
 | Shortcut     | Task                     |
 |--------------|--------------------------|
 | Ctrl + T     | New Tab                  |
@@ -114,10 +114,10 @@ This local server can be used to quickly create a mock REST-_ful_ service with t
 | Alt + H      | Focus Headers tab        |
 | Alt + B      | Focus Body tab           |
 
-# Releases 🚀
+## Releases 🚀
 Everest is under active development and you can get the latest alpha build from [Releases](https://github.com/RohitAwate/Everest/releases). Make sure you read the release notes to understand what works and what doesn't, how to report issues and how to run the binary.
 
-# Building from source 🔨
+## Building from source 🔨
 Everest uses Maven, so building from the source code is very simple. You need to have a minimum of JDK 8 (9 should also work) installed, along with Maven and Git. If you're using OpenJDK, you will need to install OpenJFX separately. Once you have everything set up, follow these simple steps:
 1. Clone the repository: `git clone https://github.com/RohitAwate/Everest.git`
 2. Enter the repository: `cd Everest`
@@ -126,11 +126,12 @@ Everest uses Maven, so building from the source code is very simple. You need to
 
 **For JDK  10 and above:** JavaFX has been decoupled from the JDK and will need to be installed separately.
 
-# License ⚖️
+## License ⚖️
 Everest is licensed under the [Apache 2.0 License](LICENSE).
 
-# Suggestions and improvements
-Use these options to reach me:
-- Open a GitHub issue.
-- Email me at rohitawate121@gmail.com.
-- Tweet me [@TheRohitAwate](https://twitter.com/TheRohitAwate).
+
+### Suggestions and improvements
+
+ZCW is planning to use this tool going forward, additions to be made by instuctors and students.
+
+the Orignal work was done by https://github.com/RohitAwate/Everest
